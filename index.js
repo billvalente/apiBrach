@@ -5,7 +5,7 @@ const servidor = express();
 servidor.get("/:gabriel", (req, res) => {
     const{gabriel} = req.params
     res.status(200).json({
-        mensagem: `mudei a mensagem ${gabriel}!`
+        mensagem: `Alterando seu Branch bill Ass: vitão ${gabriel}!`
   
     })
   });
